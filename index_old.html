@@ -21,7 +21,9 @@
   <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="PicsArt_08-08-02.36.36.png" style="height: 50px;">
+    <link rel="icon" 
+      type="image/png" 
+      href="PicsArt_08-08-02.36.36.png" style="height: 50px;">
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -32,10 +34,6 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-  <!-- Import PhotoSwipe Styles -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/default-skin.css">
 
 
 
@@ -480,7 +478,7 @@
 
 
   <!--IMAGE GALLERY-->
-  <div id="Gallery" style="background: linear-gradient(to right,#1f4037,#99f2c8);height: 305vh;">
+  <div id="Gallery" style="background: linear-gradient(to right,#1f4037,#99f2c8);">
 
     <section class="section-padding" id="portfolio">
       <div class="container">
@@ -501,197 +499,58 @@
           <div id="my-grid" class="grid-padding">
             <div class="row">
               <div class="col-sm-4">
-
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="hack4.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=0>
-                      <img src="hack4.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
+                  <div class="row"><img src="hack4.jpg" class="fit-image" onclick="openModal();currentSlide(1)"></div>
                 </div>
-
-
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="hack5.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=1>
-                      <img src="hack5.jpg" class="fit-image" itemprop="thumbnail" alt="Image description" id="hack5">
-                    </a>
-                  </figure>
+                  <div class="row"><img src="hack5.jpg" class="fit-image" onclick="openModal();currentSlide(2)"></div>
                 </div>
-
-
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="cn.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=2>
-                      <img src="cn.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
+                  <div class="row"><img src="cn.jpg" class="fit-image" onclick="openModal();currentSlide(3)"></div>
                 </div>
-
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="e-cell4.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=3>
-                      <img src="e-cell4.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
+                  <div class="row"><img src="e-cell4.jpg" class="fit-image" onclick="openModal();currentSlide(4)"></div>
                 </div>
-
-
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="E-cell1.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=4>
-                      <img src="E-cell1.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
+                  <div class="row"><img src="E-cell1.jpg" class="fit-image" onclick="openModal();currentSlide(5)"></div>
                 </div>
-                  
-                   <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="srcc1.jpeg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=2>
-                      <img src="srcc1.jpeg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
-                </div>
-                  
-                  
-                  <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="amity%20Quiz.jpeg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=0>
-                      <img src="amity%20Quiz.jpeg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
-                </div>
-
-
               </div>
 
               <div class="col-sm-4">
-                <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <a href="joshtalks.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                    data-caption="" data-index=5>
-                    <img src="joshtalks.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-
-                <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <a href="hackdelhi1.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                    data-caption="" data-index=6>
-                    <img src="hackdelhi1.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-
-                <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <a href="illuminate.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                    data-caption="" data-index=7>
-                    <img src="illuminate.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-
-
-                <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <a href="e-cell5.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                    data-caption="" data-index=8>
-                    <img src="e-cell5.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-
-                <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <a href="whizquiz.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                    data-caption="" data-index=9>
-                    <img src="whizquiz.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
-                  
-                  
-                  
-                     <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                  <a href="WhatsApp%20Image%202019-09-05%20at%2010.15.44%20PM.jpeg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                    data-caption="" data-index=9>
-                    <img src="WhatsApp%20Image%202019-09-05%20at%2010.15.44%20PM.jpeg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                  </a>
-                </figure>
+                <div class="row"><img src="joshtalks.jpg" class="fit-image" onclick="openModal();currentSlide(6)"></div>
+                <div class="row"><img src="hackdelhi1.jpg" class="fit-image" onclick="openModal();currentSlide(7)">
+                </div>
+                <div class="row"><img src="illuminate.jpg" class="fit-image" onclick="openModal();currentSlide(8)">
+                </div>
+                <div class="row"><img src="e-cell5.jpg" class="fit-image" onclick="openModal();currentSlide(9)"></div>
+                <div class="row"><img src="whizquiz.jpg" class="fit-image" onclick="openModal();currentSlide(10)"></div>
+                   <div class="row"><img src="srcc1.jpeg" class="fit-image" onclick="openModal();currentSlide(10)"></div>
               </div>
 
 
               <div class="col-sm-4">
                 <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="hack2.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=10>
-                      <img src="hack2.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
+                  <div class="row"><img src="hack2.jpg" class="fit-image" onclick="openModal();currentSlide(11)"></div>
                 </div>
-
-
                 <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="hack3.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=11>
-                      <img src="hack3.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
+                  <div class="row"><img src="hack3.jpg" class="fit-image" onclick="openModal();currentSlide(12)"></div>
                 </div>
-
-
                 <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="projectaccelerate.jpg" data-width="1200" data-height="900" itemprop="contentUrl"
-                      class="plink" data-caption="">
-                      <img src="projectaccelerate.jpg" class="fit-image" itemprop="thumbnail" alt="Image description"
-                        data-index=12>
-                    </a>
-                  </figure>
+                  <div class="row"><img src="projectaccelerate.jpg" class="fit-image"
+                      onclick="openModal();currentSlide(13)"></div>
                 </div>
-
-
                 <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="e-cell2.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=13>
-                      <img src="e-cell2.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
+                  <div class="row"><img src="e-cell2.jpg" class="fit-image" onclick="openModal();currentSlide(14)">
+                  </div>
                 </div>
-
-
                 <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="e-cell10.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=14>
-                      <img src="e-cell10.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
+                  <div class="row"><img src="e-cell10.jpg" class="fit-image" onclick="openModal();currentSlide(15)">
+                  </div>
                 </div>
               </div>
 
-                
-                 <div class="col-sm-4">
-                <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="srcc2.jpeg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=10>
-                      <img src="srcc2.jpeg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
-                </div>
 
- <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                    <a href="e-cell6.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
-                      data-caption="" data-index=14>
-                      <img src="e-cell6.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
-                    </a>
-                  </figure>
-                </div>
-              </div>
+
 
 
             </div>
@@ -703,211 +562,110 @@
     </section>
 
 
+    <div id="my-modal" class="modal">
 
+      <!--Close button-->
+      <span class="open" onclick="openModal()">&times;</span>
+      <span clas="close" onclick="closeModal()">&times;</span>
 
-  </div>
-    
-    
-    
-    
-    <!--achievements-->
-    <div id="service" class="section md-padding">
+      <!--Comment for modal-->
 
-    <!-- Container -->
-    <div class="container">
-
-      <!-- Row -->
-      <div class="row">
-
-        <!-- Section header -->
-        <div class="section-header text-center">
-          <h2 class="title">Achievements</h2>
-        </div>
-        <!-- /Section header -->
-
-        <!-- service -->
-        <div data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-          <div class="col-md-4 col-sm-6">
-            <div class="service">
-              <i class="fa fa-trophy" aria-hidden="true"></i></i>
-              <h3>
-                <font color="#3498db">NET IITD</font>
-              </h3>
-<p>
-                <ul>
-                <li>Total Teams:73</li>
-                    <li>Best nation</li>
-                    <li>Best MNC</li>
-                    <li>Best Bank</li>
-                </ul> 
-                </p>
-            </div>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div data-aos="fade-up" data-aos-duration="500">
-          <div class="col-md-4 col-sm-6">
-            <div class="service">
-              <i class="fa fa-diamond"></i>
-              <h3>
-                <font color="#3498db">IMPERIUM IIM-INDORE</font>
-              </h3>
-              <p>
-                <ul>
-                <li>Total Teams:103</li>
-                    <li>OUR POSITION:7th
-                        </li>
-                    <li>Best MNC : Aayush,Manind,Ritik,Shorya</li>
-                    
-                </ul> 
-            </div>
-          </div>
-        </div>
-        <!-- /service -->
-
-        <!-- service -->
-        <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-          <div class="col-md-4 col-sm-6">
-            <div class="service">
-              <i class="fa fa-trophy" aria-hidden="true"></i>
-              <h3>
-                <font color="#3498db">NET SBSC</font>
-              </h3>
-              <p>
-                <ul> 
-                <li>Total Teams:73</li>
-                    <li>Best nation</li>
-                    <li>Best MNC</li>
-                    <li>Best Bank</li>
-                </ul>
-                </p>
-            </div>
-          </div>
-        </div>
-        <!-- /service -->
-<div data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
-          <div class="col-md-4 col-sm-6">
-            <div class="service">
-              <i class="fa fa-rocket"></i>
-              <h3>
-                <font color="#3498db">NET SRCC</font>
-              </h3>
-<p>
-                <ul>
-                <li>Total Teams:72</li>
-                    <li>Best nation-Ayush,Manind,Jharna,Shorya,Fahad</li>
-                    <li>Best MNC-Sakshi Verma,Ritvik Singh,Divyansh Tripathi,Vivek Sharma,Ashish aggarwal</li>
-                    
-                
-                  
-                </p>
-            </div>
-          </div>
-        </div>
-          
-          
-          
-          
-          
-          
-          
-           <div data-aos="fade-up" data-aos-duration="500">
-          <div class="col-md-4 col-sm-6">
-            <div class="service">
-              <i class="fa fa-diamond"></i>
-              <h3>
-                <font color="#3498db">AMITY DEBATE & QUIZ</font>
-              </h3>
-             <p>
-                <ul>
-                <li>Total Teams:45</li>
-                    <li>Debate:1st-Shorya,Jharna,Prakhar,Shreya</li>
-                    <li>Quiz:5th-Arnav ,Shashwat</li>
-                    <li>Best Bank</li>
-                     
-                </ul>
-                </p>
-            </div>
-          </div>
-        </div>
-          
-          
-          
-          
-          <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-          <div class="col-md-4 col-sm-6">
-            <div class="service">
-              <i class="fa fa-cogs"></i>
-              <h3>
-                <font color="#3498db">COC</font>
-              </h3>
-             <p>
-                <ul>
-                <li>Total Teams:54</li>
-                    <li>Our Position:!st</li>
-                    <li>Team:Vivek sharma,Sumit</li>
-                   
-                </ul>
-                </p>
-            </div>
-          </div>
+      <div class="modal-content">
+        <div class="my-slides">
+          <div class="numbertext">1/15</div>
+          <img src="hack4.jpg" class="portrait-image">
         </div>
 
+
+        <div class="my-slides">
+          <div class="numbertext">2/15</div>
+          <img src="hack5.jpg" class="landscape-image">
+        </div>
+
+
+        <div class="my-slides">
+          <div class="numbertext">3/15</div>
+          <img src="cn.jpg" class="landscape-image">
+        </div>
+
+
+        <div class="my-slides">
+          <div class="numbertext">4/15</div>
+          <img src="e-cell4.jpg" class="landscape-image">
+        </div>
+
+
+
+        <div class="my-slides">
+          <div class="numbertext">5/15</div>
+          <img src="E-cell1.jpg" class="landscape-image">
+        </div>
+
+
+        <div class="my-slides">
+          <div class="numbertext">6/15</div>
+          <img src="joshtalks.jpg" class="portrait-image">
+        </div>
+
+        <div class="my-slides">
+          <div class="numbertext">7/15</div>
+          <img src="hackdelhi1.jpg" class="landscape-image">
+        </div>
+
+        <div class="my-slides">
+          <div class="numbertext">8/15</div>
+          <img src="illuminate.jpg" class="landscape-image">
+        </div>
+
+        <div class="my-slides">
+          <div class="numbertext">9/15</div>
+          <img src="e-cell5.jpg" class="portrait-image">
+        </div>
+
+        <div class="my-slides">
+          <div class="numbertext">10/15</div>
+          <img src="whizquiz.jpg" class="landscape-image">
+        </div>
+
+        <div class="my-slides">
+          <div class="numbertext">11/15</div>
+          <img src="hack2.jpg" class="landscape-image">
+        </div>
+
+        <div class="my-slides">
+          <div class="numbertext">12/15</div>
+          <img src="hack3.jpg" class="landscape-image">
+        </div>
+
+        <div class="my-slides">
+          <div class="numbertext">13/15</div>
+          <img src="projectaccelerate.jpg" class="portrait-image">
+        </div>
+
+        <div class="my-slides">
+          <div class="numbertext">14/15</div>
+          <img src="e-cell2.jpg" class="landscape-image">
+        </div>
+
+        <div class="my-slides">
+          <div class="numbertext">15/15</div>
+          <img src="e-cell10.jpg" class="landscape-image">
+        </div>
+
+
+        <!--Next and previous buttons-->
+        <a class="prev" onclick="changeSlides(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlides(1)">&#10095;</a>
 
       </div>
-      <!-- /Row -->
-
     </div>
-    <!-- /Container -->
+
 
   </div>
-
-
-
-
-
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   <!--S T A R T U P S-->
   <section id="startups" style="background: black;">
- 
+
     <div class="boxes">
-        
       <div data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
         <div class="two-colbox">
           <div class="part1">
@@ -947,8 +705,11 @@
               <p class="boxHeadertop" style="color:crimson;font-size:40px;  ">HACKDELHI</p>
               <hr class="headerline" noshade="">
             </div>
-            <p class="boxHeadertext" style="color:white;font-size:25px; margin: 37px 0 10px;  ">At HackDelhi, we are aiming to provide a hacking and networking platform by bringing people from a multitude of organisations,educational backgrounds ,belonging to different stratas of society for a whole new arena of excitement,coding and sheer brilliance. And at what cost, Zero. Zip. Zilch. Nada. Nothing! Its a deliquescent combination of Hackathon, DevRelCon and Hiring Fair, that serves to every kind of aspirations.
-
+            <p class="boxHeadertext" style="color:white;font-size:25px; margin: 37px 0 10px;  ">Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Accusamus laudantium similique voluptas a expedita et laboriosam
+              deserunt cum sed ab sit, ipsum, praesentium facilis voluptatem blanditiis quo rerum. Nam autem cum
+              consectetur ea eius ipsam asperiores harum impedit dolorem exercitationem ab et doloremque qui, cumque
+              dolorum deserunt repellat recusandae sequi dolore libero nemo aut dolor. Recusandae dolorum vel iure aut?
             </p>
           </div>
         </div>
@@ -1006,6 +767,137 @@
   <!-- box2 closes -->
 
   <!-- box3 -->
+
+
+
+
+
+<!--achievemets-->
+    <div id="service" class="section md-padding">
+
+    <!-- Container -->
+    <div class="container">
+
+      <!-- Row -->
+      <div class="row">
+
+        <!-- Section header -->
+        <div class="section-header text-center">
+          <h2 class="title">Upcoming Events</h2>
+        </div>
+        <!-- /Section header -->
+
+        <!-- service -->
+        <div data-aos="fade-right" data-aos-offset="500" data-aos-easing="ease-in-sine">
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-rocket"></i>
+              <h3>
+                <font color="#3498db">NET  IITD </font>
+                  
+              </h3>
+                <p>
+                <ul>
+                <li>Total Teams:73</li>
+                    <li>Best nation</li>
+                    <li>Best MNC</li>
+                    <li>Best Bank</li>
+                </ul>
+                </p>
+
+            </div>
+          </div>
+        </div>
+        <!-- /service -->
+
+        <!-- service -->
+        <div data-aos="fade-up" data-aos-duration="500">
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-diamond"></i>
+              <h3>
+                <font color="#3498db">NET SRCC </font>
+              </h3>
+               <p>
+                <ul>
+                <li>Total Teams:85</li>
+                    <li>Best nation</li>
+                    <li>Best MNC</li>
+                   
+                </ul>
+                </p>
+            </div>
+          </div>
+        </div>
+        <!-- /service -->
+
+        <!-- service -->
+        <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-cogs"></i>
+              <h3>
+                <font color="#3498db">RICSS Quiz</font>
+              </h3>
+               <p>
+                <ul>
+                <li>Total Teams:47</li>
+                    <li>our position:1st </li>
+                    <li>Best </li>
+                    <li>Best Bank</li>
+                </ul>
+                </p>
+            </div>
+          </div>
+        </div>
+        <!-- /service -->
+          <div data-aos="fade-up" data-aos-duration="500">
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-diamond"></i>
+              <h3>
+                <font color="#3498db"> Clash of Compnies</font>
+              </h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+          
+          
+           <div data-aos="fade-up" data-aos-duration="500">
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-diamond"></i>
+              <h3>
+                <font color="#3498db"> NET SBSC</font>
+              </h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+
+            
+           <div data-aos="fade-up" data-aos-duration="500">
+          <div class="col-md-4 col-sm-6">
+            <div class="service">
+              <i class="fa fa-trophy" aria-hidden="true"></i>
+              <h3>
+                <font color="#3498db"> IMPERIUM ,IIM INDORE</font>
+              </h3>
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- /Row -->
+
+    </div>
+    <!-- /Container -->
+
+  </div>
 
 
 
@@ -1098,14 +990,7 @@
         </div>
 
 
-        <div class="swiper-slide">
-          <div class="imgBx">
-            <img src="./images/deepanshu.jpg">
-          </div>
-          <div class="details">
-            <h3>Deepanshu Hooda<br><span>Operations Head</span></h3>
-          </div>
-        </div>
+
 
 
 
@@ -1159,7 +1044,14 @@
             <h3>Tanya<br><span>Content and Marketing</span></h3>
           </div>
         </div>
-
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/ritviksinghrautela.jpeg">
+          </div>
+          <div class="details">
+            <h3>Deepanshu Hooda<br><span>Operations Head</span></h3>
+          </div>
+        </div>
 
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
@@ -1253,8 +1145,9 @@
     </ul>
 
     <span class="footer-love" style="padding-left: 12px">
-      Made with <i class="fa fa-heart pulse"></i> By <a href="https://github.com/Aakash2408" target="_blank">Aakash
-        Sangwan </a>
+      Made with <i class="fa fa-heart pulse"></i> By <a
+        href="https://github.com/Aakash2408"
+        target="_blank">Aakash Sangwan </a>
   </footer>
   <!--For move to top-->
 
@@ -1373,114 +1266,4 @@
 
 
 
-  </script>
-
-
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-       It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-      <!-- Container that holds slides. 
-          PhotoSwipe keeps only 3 of them in the DOM to save memory.
-          Don't modify these 3 pswp__item elements, data is added later on. -->
-      <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-      </div>
-
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-      <div class="pswp__ui pswp__ui--hidden">
-
-        <div class="pswp__top-bar">
-
-          <!--  Controls are self-explanatory. Order can be changed. -->
-
-          <div class="pswp__counter"></div>
-
-          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-          <!-- <button class="pswp__button pswp__button--share" title="Share"></button>
-
-            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button> -->
-
-          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-          <!-- element will get class pswp__preloader--active when preloader is running -->
-          <div class="pswp__preloader">
-            <div class="pswp__preloader__icn">
-              <div class="pswp__preloader__cut">
-                <div class="pswp__preloader__donut"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-          <div class="pswp__share-tooltip"></div>
-        </div>
-
-        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-        </button>
-
-        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-        </button>
-
-        <div class="pswp__caption">
-          <div class="pswp__caption__center"></div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <!-- Import jQuery and PhotoSwipe Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe-ui-default.min.js"></script>
-
-  <script>
-    'use strict';
-    /* global jQuery, PhotoSwipe, PhotoSwipeUI_Default, console */
-    var container = [];
-    (function ($) {
-      // Init empty gallery array
-      // Loop over gallery items and push it to the array
-      $('#my-grid').find('figure').each(function () {
-        var $link = $(this).find('a'),
-          item = {
-            src: $link.attr('href'),
-            w: $link.data('width'),
-            h: $link.data('height'),
-            title: $link.data('caption')
-          };
-        container.push(item);
-      });
-      // Define click event on gallery item
-      $('.plink').click(function (event) {
-        // Prevent location change
-        event.preventDefault();
-        // Define object and gallery options
-        let i = $(this).data('index');
-        var $pswp = $('.pswp')[0],
-          options = {
-            // index: $(this).index(),
-            // index = $(this).data('index'),
-            index: i,
-            bgOpacity: 0.95,
-            showHideOpacity: true
-          };
-        // Initialize PhotoSwipe
-        var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, container, options);
-        gallery.init();
-      });
-    }(jQuery));
   </script>
