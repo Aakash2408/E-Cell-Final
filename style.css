@@ -20,26 +20,14 @@ body
 }
 
 
-header
-{
-    font-family: Raleway;
-  object-fit: cover;
-	padding:0em 0em;
-	text-align: center;
-  height: 1100vh;
-   
-    background-size: cover;
-     background-repeat: no-repeat;
-      position: relative;
-     background-attachment: fixed;
-}
 .hero{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(IMG-20190808-WA0000.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(IMG-20190808-WA0000.jpg);
+    
     background-size: cover;
     text-align: center;
     width: 100%;
     
-     height: 105vh;
+     height: 100vh;
     
     background-attachment: fixed;
     position: relative;
@@ -105,7 +93,7 @@ margin-bottom: 2px;
 .imglogo{
     
     position: absolute;
-    left: 6.5%;
+    left: 16.5%;
     top: 8%;
     opacity: 15;
 }
@@ -428,7 +416,7 @@ footer span
     left: 20%;
     animation: moveInTop 1s ease-out;
    font-family: 'Lilita One', cursive;
-    color: cornflowerblue;
+    color: linear-gradient(to right,#2193b0,#6dd5ed);
     
 
 }
@@ -640,7 +628,7 @@ footer span
     width: 100%;
     background-color: black;
     
-     height: 105vh;
+     height: 55vh;
     
     
 }
@@ -1159,7 +1147,7 @@ footer span
 
 
 #portfolio1{
-    height:113vh;
+    height:150vh;
     background: white;
 }
 
@@ -1295,8 +1283,23 @@ footer span
 
 /*PORTFOLIO*/
 
+#Gallery{
+     background-image:linear-gradient(to right,#1f4037,#99f2c8);
+    opacity: 0.1
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    
+     height: 220vh;
+    
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+  
+}
+
 #portfolio{
-    background-color: red;
+    background-color: linear-gradient(#1f4037,#99f2c8);
    height: 238vh;
  
     background-size: cover;
@@ -1497,9 +1500,11 @@ footer span
 .achievements-container{
      height: 350px;
 margin-top: 180px;
+    float: left;
+    width: 1500px;
    
  background: repeating-linear-gradient(120deg, white 0px, white 450px,
- hsl(183,56%, 42%) 250px,
+ hsl(20, 100%, 70%) 250px,
  hsl(183,56%, 42%));
     border-left: white;
    
@@ -1585,7 +1590,7 @@ margin-top: 180px;
 
 /*contact*/
 #contactus{
-    height: 50vh;
+    height: 80vh;
     background-color: cornflowerblue;
 }
 .contact {
@@ -1642,7 +1647,7 @@ margin-top: 180px;
 }
 
 .footer-logo {
-    text-align: center;
+padding-left: 50px;
     margin-bottom: 40px;
 }
 
@@ -1678,6 +1683,44 @@ margin-top: 180px;
     font-size: 14px;
     text-transform: uppercase;
     margin: 0;
+}
+
+
+.footer-love {
+  color: #666;
+  font-size: 20px;
+  display: block;
+ 
+  bottom: 10px;
+ 
+
+  
+  
+  
+  
+  text-align: center;
+}
+.footer-love a {
+  color: lightcoral;
+  text-decoration: none;
+}
+.footer-love .fa {
+  color: lightcoral;
+  margin: 0 3px;
+  font-size: 20px;
+  animation: pound 0.35s infinite alternate;
+  -webkit-animation: pound 0.35s infinite alternate;
+}
+
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
 }
 
 
