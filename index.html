@@ -21,9 +21,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lilita+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-    <link rel="icon" 
-      type="image/png" 
-      href="PicsArt_08-08-02.36.36.png" style="height: 50px;">
+  <link rel="icon" type="image/png" href="PicsArt_08-08-02.36.36.png" style="height: 50px;">
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -34,6 +32,10 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+  <!-- Import PhotoSwipe Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/default-skin.css">
 
 
 
@@ -499,52 +501,146 @@
           <div id="my-grid" class="grid-padding">
             <div class="row">
               <div class="col-sm-4">
+
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <div class="row"><img src="hack4.jpg" class="fit-image" onclick="openModal();currentSlide(1)"></div>
+                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="hack4.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                      data-caption="" data-index=0>
+                      <img src="hack4.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                    </a>
+                  </figure>
                 </div>
+
+
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <div class="row"><img src="hack5.jpg" class="fit-image" onclick="openModal();currentSlide(2)"></div>
+                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="hack5.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                      data-caption="" data-index=1>
+                      <img src="hack5.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                    </a>
+                  </figure>
                 </div>
+
+
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <div class="row"><img src="cn.jpg" class="fit-image" onclick="openModal();currentSlide(3)"></div>
+                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="cn.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                      data-caption="" data-index=2>
+                      <img src="cn.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                    </a>
+                  </figure>
                 </div>
+
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <div class="row"><img src="e-cell4.jpg" class="fit-image" onclick="openModal();currentSlide(4)"></div>
+                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="e-cell4.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                      data-caption="" data-index=3>
+                      <img src="e-cell4.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                    </a>
+                  </figure>
                 </div>
+
+
                 <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="500">
-                  <div class="row"><img src="E-cell1.jpg" class="fit-image" onclick="openModal();currentSlide(5)"></div>
+                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="E-cell1.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                      data-caption="" data-index=4>
+                      <img src="E-cell1.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                    </a>
+                  </figure>
                 </div>
+
+
               </div>
 
               <div class="col-sm-4">
-                <div class="row"><img src="joshtalks.jpg" class="fit-image" onclick="openModal();currentSlide(6)"></div>
-                <div class="row"><img src="hackdelhi1.jpg" class="fit-image" onclick="openModal();currentSlide(7)">
-                </div>
-                <div class="row"><img src="illuminate.jpg" class="fit-image" onclick="openModal();currentSlide(8)">
-                </div>
-                <div class="row"><img src="e-cell5.jpg" class="fit-image" onclick="openModal();currentSlide(9)"></div>
-                <div class="row"><img src="whizquiz.jpg" class="fit-image" onclick="openModal();currentSlide(10)"></div>
+                <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="joshtalks.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                    data-caption="" data-index=5>
+                    <img src="joshtalks.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                </figure>
+
+                <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="hackdelhi1.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                    data-caption="" data-index=6>
+                    <img src="hackdelhi1.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                </figure>
+
+                <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="illuminate.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                    data-caption="" data-index=7>
+                    <img src="illuminate.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                </figure>
+
+
+                <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="e-cell5.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                    data-caption="" data-index=8>
+                    <img src="e-cell5.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                </figure>
+
+                <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                  <a href="whizquiz.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                    data-caption="" data-index=9>
+                    <img src="whizquiz.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                  </a>
+                </figure>
               </div>
 
 
               <div class="col-sm-4">
                 <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <div class="row"><img src="hack2.jpg" class="fit-image" onclick="openModal();currentSlide(11)"></div>
+                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="hack2.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                      data-caption="" data-index=10>
+                      <img src="hack2.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                    </a>
+                  </figure>
                 </div>
+
+
                 <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <div class="row"><img src="hack3.jpg" class="fit-image" onclick="openModal();currentSlide(12)"></div>
+                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="hack3.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                      data-caption="" data-index=11>
+                      <img src="hack3.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                    </a>
+                  </figure>
                 </div>
+
+
                 <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <div class="row"><img src="projectaccelerate.jpg" class="fit-image"
-                      onclick="openModal();currentSlide(13)"></div>
+                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="projectaccelerate.jpg" data-width="1200" data-height="900" itemprop="contentUrl"
+                      class="plink" data-caption="">
+                      <img src="projectaccelerate.jpg" class="fit-image" itemprop="thumbnail" alt="Image description"
+                        data-index=12>
+                    </a>
+                  </figure>
                 </div>
+
+
                 <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <div class="row"><img src="e-cell2.jpg" class="fit-image" onclick="openModal();currentSlide(14)">
-                  </div>
+                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="e-cell2.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                      data-caption="" data-index=13>
+                      <img src="e-cell2.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                    </a>
+                  </figure>
                 </div>
+
+
                 <div data-aos="fade-left" data-aos-offset="500" data-aos-duration="500">
-                  <div class="row"><img src="e-cell10.jpg" class="fit-image" onclick="openModal();currentSlide(15)">
-                  </div>
+                  <figure class="row" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                    <a href="e-cell10.jpg" data-width="1200" data-height="900" itemprop="contentUrl" class="plink"
+                      data-caption="" data-index=14>
+                      <img src="e-cell10.jpg" class="fit-image" itemprop="thumbnail" alt="Image description">
+                    </a>
+                  </figure>
                 </div>
               </div>
 
@@ -561,103 +657,6 @@
     </section>
 
 
-    <div id="my-modal" class="modal">
-
-      <!--Close button-->
-      <span class="open" onclick="openModal()">&times;</span>
-      <span clas="close" onclick="closeModal()">&times;</span>
-
-      <!--Comment for modal-->
-
-      <div class="modal-content">
-        <div class="my-slides">
-          <div class="numbertext">1/15</div>
-          <img src="hack4.jpg" class="portrait-image">
-        </div>
-
-
-        <div class="my-slides">
-          <div class="numbertext">2/15</div>
-          <img src="hack5.jpg" class="landscape-image">
-        </div>
-
-
-        <div class="my-slides">
-          <div class="numbertext">3/15</div>
-          <img src="cn.jpg" class="landscape-image">
-        </div>
-
-
-        <div class="my-slides">
-          <div class="numbertext">4/15</div>
-          <img src="e-cell4.jpg" class="landscape-image">
-        </div>
-
-
-
-        <div class="my-slides">
-          <div class="numbertext">5/15</div>
-          <img src="E-cell1.jpg" class="landscape-image">
-        </div>
-
-
-        <div class="my-slides">
-          <div class="numbertext">6/15</div>
-          <img src="joshtalks.jpg" class="portrait-image">
-        </div>
-
-        <div class="my-slides">
-          <div class="numbertext">7/15</div>
-          <img src="hackdelhi1.jpg" class="landscape-image">
-        </div>
-
-        <div class="my-slides">
-          <div class="numbertext">8/15</div>
-          <img src="illuminate.jpg" class="landscape-image">
-        </div>
-
-        <div class="my-slides">
-          <div class="numbertext">9/15</div>
-          <img src="e-cell5.jpg" class="portrait-image">
-        </div>
-
-        <div class="my-slides">
-          <div class="numbertext">10/15</div>
-          <img src="whizquiz.jpg" class="landscape-image">
-        </div>
-
-        <div class="my-slides">
-          <div class="numbertext">11/15</div>
-          <img src="hack2.jpg" class="landscape-image">
-        </div>
-
-        <div class="my-slides">
-          <div class="numbertext">12/15</div>
-          <img src="hack3.jpg" class="landscape-image">
-        </div>
-
-        <div class="my-slides">
-          <div class="numbertext">13/15</div>
-          <img src="projectaccelerate.jpg" class="portrait-image">
-        </div>
-
-        <div class="my-slides">
-          <div class="numbertext">14/15</div>
-          <img src="e-cell2.jpg" class="landscape-image">
-        </div>
-
-        <div class="my-slides">
-          <div class="numbertext">15/15</div>
-          <img src="e-cell10.jpg" class="landscape-image">
-        </div>
-
-
-        <!--Next and previous buttons-->
-        <a class="prev" onclick="changeSlides(-1)">&#10094;</a>
-        <a class="next" onclick="changeSlides(1)">&#10095;</a>
-
-      </div>
-    </div>
 
 
   </div>
@@ -858,7 +857,14 @@
         </div>
 
 
-
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./images/deepanshu.jpg">
+          </div>
+          <div class="details">
+            <h3>Deepanshu Hooda<br><span>Operations Head</span></h3>
+          </div>
+        </div>
 
 
 
@@ -912,14 +918,7 @@
             <h3>Tanya<br><span>Content and Marketing</span></h3>
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="imgBx">
-            <img src="./images/ritviksinghrautela.jpeg">
-          </div>
-          <div class="details">
-            <h3>Deepanshu Hooda<br><span>Operations Head</span></h3>
-          </div>
-        </div>
+
 
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
@@ -1062,9 +1061,8 @@
     </ul>
 
     <span class="footer-love" style="padding-left: 12px">
-      Made with <i class="fa fa-heart pulse"></i> By <a
-        href="https://github.com/Aakash2408"
-        target="_blank">Aakash Sangwan </a>
+      Made with <i class="fa fa-heart pulse"></i> By <a href="https://github.com/Aakash2408" target="_blank">Aakash
+        Sangwan </a>
   </footer>
   <!--For move to top-->
 
@@ -1182,4 +1180,114 @@
 
 
 
+  </script>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+       It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides. 
+          PhotoSwipe keeps only 3 of them in the DOM to save memory.
+          Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+          <!-- <button class="pswp__button pswp__button--share" title="Share"></button>
+
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button> -->
+
+          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Import jQuery and PhotoSwipe Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe-ui-default.min.js"></script>
+
+  <script>
+    'use strict';
+    /* global jQuery, PhotoSwipe, PhotoSwipeUI_Default, console */
+    var container = [];
+    (function ($) {
+      // Init empty gallery array
+      // Loop over gallery items and push it to the array
+      $('#my-grid').find('figure').each(function () {
+        var $link = $(this).find('a'),
+          item = {
+            src: $link.attr('href'),
+            w: $link.data('width'),
+            h: $link.data('height'),
+            title: $link.data('caption')
+          };
+        container.push(item);
+      });
+      // Define click event on gallery item
+      $('.plink').click(function (event) {
+        // Prevent location change
+        event.preventDefault();
+        // Define object and gallery options
+        let i = $(this).data('index');
+        var $pswp = $('.pswp')[0],
+          options = {
+            // index: $(this).index(),
+            // index = $(this).data('index'),
+            index: i,
+            bgOpacity: 0.95,
+            showHideOpacity: true
+          };
+        // Initialize PhotoSwipe
+        var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, container, options);
+        gallery.init();
+      });
+    }(jQuery));
   </script>
