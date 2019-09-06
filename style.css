@@ -249,7 +249,7 @@ footer span
 
 /* -- mobile nav -- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 567px) {
     #nav {
         padding: 0px 0px;
     }
