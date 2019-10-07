@@ -8,8 +8,7 @@ $color4: #F8BB44;
 $color5: #F24B4B;
 
 
-body
-{
+body{
     margin: 0px;
     padding: 0;
    background: ;
@@ -35,12 +34,6 @@ body
     border-radius: 0 0 85% 85% / 30%;
 }
 
-
-
-
-
-
-
 section1{
     position: relative;
     width:100vh;
@@ -50,35 +43,50 @@ section1{
     overflow: hidden;
      
 }
+
 .logo-box{
-        width: 450px;
+    width: 450px;
     height: 350px;
     position: absolute;
-    left: 75%;
+    float: right;
+	right: 0;
     top: 22%;
-     animation: moveInTop  1s ease-out;
+	animation: moveInTop  1s ease-out;
     animation-duration: 1s;
 }
+
 .text-box{
     position: absolute;
     top: 22%;
     left:12%;
     border-left: 5px solid red;
-   
     text-align: center;
      animation: moveInTop 1s ease-out;
 }
+
+/* media query for the textbox*/
+@media screen and (max-width : 600px)
+{
+	.text-box{
+		transform : scale(0.5);
+		left : 20px;
+		top: 20px;
+	}
+	.logo-box{
+		transform : scale(0.5);
+		position: absolute;
+		top: 33%;
+	}
+}
+
 .imglogo2{
 margin-bottom: 2px;
 }
-
 
 .rotate {
   animation: rotation 20s infinite ease-in-out alternate;
     position: relative;
     opacity: 1;
-    
-    
 }
 
 
@@ -1559,16 +1567,6 @@ margin-top: 180px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*EVENTS*/
 #events{
     height 40vh;
@@ -1581,11 +1579,6 @@ margin-top: 180px;
     height 100vh;
     background:white;
 }
-
-
-
-
-
 
 
 /*contact*/
@@ -1623,21 +1616,6 @@ margin-top: 180px;
     margin-left: 15px;
 }
 
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
 /*footer*/
 #footer {
@@ -1685,19 +1663,11 @@ padding-left: 50px;
     margin: 0;
 }
 
-
 .footer-love {
   color: #666;
   font-size: 20px;
   display: block;
- 
   bottom: 10px;
- 
-
-  
-  
-  
-  
   text-align: center;
 }
 .footer-love a {
