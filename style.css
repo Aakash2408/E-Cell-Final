@@ -1,21 +1,22 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 @import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
 @import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
-$color1: #244F75;
+/* $color1: #244F75;
 $color2: #60BFBF;
 $color3: #8C4B7E;
 $color4: #F8BB44;
-$color5: #F24B4B;
+$color5: #F24B4B; */
 
 
 body{
     margin: 0px;
     padding: 0;
-   background: ;
+   /* background: ; */
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Varela Round', sans-serif;
     color: darkgrey;
+    overflow-x: hidden;
 }
 
 
@@ -67,15 +68,15 @@ section1{
 /* media query for the textbox*/
 @media screen and (max-width : 600px)
 {
-	.text-box{
-		transform : scale(0.5);
-		left : 20px;
-		top: 20px;
+	.text-box{    
+        transform: scale(0.5) translateX(-98%);
+        top:0;
+        left: 50%;
 	}
 	.logo-box{
-		transform : scale(0.5);
-		position: absolute;
-		top: 33%;
+        transform: scale(0.5) translateX(-100%);
+        left: 50%;
+        top: 33%;
 	}
 }
 
@@ -101,9 +102,9 @@ margin-bottom: 2px;
 .imglogo{
     
     position: absolute;
-    left: 5.5%;
-    top: 8%;
-    opacity: 14;
+    left: 50%;
+    top: 50%;
+    transform: translate(-51%,-49%);
 }
 
 
@@ -129,7 +130,7 @@ footer span
 
 #nav {
     padding: 10px 0px;
-    background: ;
+    /* background: ; */
     -webkit-transition: 0.2s padding;
     transition: 0.2s padding;
     z-index: 999;
@@ -652,7 +653,6 @@ footer span
 #about-content-box{
     float: left;
     width: 350px;
-    height: 500px;
     margin-top: 6%;
     background-color: black;
     color: wheat;
@@ -891,7 +891,8 @@ footer span
       color:#000;
       margin: 0;
       padding: 0;
-   height: 100vh;
+      min-height: 100vh;
+      padding-bottom: 30px;
     
     
 }
@@ -986,7 +987,7 @@ footer span
 /*startups*/
 .two-colbox{
   min-height: 100%;
-  height: 70vh;
+  /* height: 70vh; */
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -1033,12 +1034,15 @@ footer span
     flex-direction: column;
     align-items: center;
     width: 95%;
+    padding-top: 100px;
+    padding-left: 30px;
   }
 
   .part1{
     margin: 0;
     text-align: center;
     width: 100%;
+    margin: 20px 0;
   }
 
   .headerline{
@@ -1178,7 +1182,6 @@ footer span
 
 
 #portfolio1{
-    height:150vh;
     background: white;
 }
 
@@ -1186,11 +1189,14 @@ footer span
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.speakers-container {
-    padding-right: 382px;
-    padding-left: 382px;
-    margin-right: auto;
+
+.speakers-grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
     margin-left: auto;
+    margin-right:auto;
 }
 .row {
     margin-right: -15px;
@@ -1202,11 +1208,12 @@ footer span
 }
 .work {
     position: relative;
-    padding: 20px;
+    padding: 20px;    
 }
 
 .work>img {
   width: 100%;
+  height: 100%;
 }
 
 .work .overlay {
@@ -1312,15 +1319,31 @@ footer span
 }
 
 
+@media(max-width:990px ) and ( min-width:550px )
+{
+    .speakers-grid
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media(max-width:550px)
+{
+    .speakers-grid
+    {
+        grid-template-columns: 1fr;
+    }
+}
+
 /*PORTFOLIO*/
 
 #Gallery{
      background-image:linear-gradient(to right,#1f4037,#99f2c8);
-    opacity: 0.1
     background-size: cover;
     text-align: center;
     width: 100%;
-    
+    color:white;
      height: 220vh;
     
     background-attachment: fixed;
@@ -1477,12 +1500,14 @@ footer span
     border: 1px solid #EEE;
    
     color: gray;
+    display: flex;
+    justify-content: center;
 }
 
 .service i {
     position: absolute;
     left: 20px;
-    top:60px;
+
     text-align: center;
     font-size: 32px;
     color: #6195FF;
@@ -1509,6 +1534,7 @@ footer span
 .service h3 {
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
+  margin:0;
 }
 
 .service:hover h3 {
@@ -1592,21 +1618,21 @@ margin-top: 180px;
 
 /*EVENTS*/
 #events{
-    height 40vh;
+    height: 40vh;
     background-color: azure;
 }
 
 
 /*Achievements*/
 #achievements{
-    height 100vh;
+    height : 100vh;
     background:white;
 }
 
 
 /*contact*/
 #contactus{
-    height: 80vh;
+    min-height: 80vh;
     background-color: cornflowerblue;
 }
 .contact {
@@ -1648,7 +1674,6 @@ margin-top: 180px;
 }
 
 .footer-logo {
-padding-left: 50px;
     margin-bottom: 40px;
 }
 
@@ -1659,6 +1684,7 @@ padding-left: 50px;
 .footer-follow {
     text-align: center;
     margin-bottom: 20px;
+    padding: 0;
 }
 
 .footer-follow li {
