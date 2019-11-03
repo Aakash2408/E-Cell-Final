@@ -75,7 +75,7 @@ section1{
 	}
 	.logo-box{
         transform: scale(0.5) translateX(-100%);
-        left: 50%;
+        left: 60%;
         top: 33%;
 	}
 }
@@ -659,7 +659,7 @@ footer span
     float: left;
     width: 350px;
     height: 500px;
-    margin-top: 6%;
+    margin-left: -16%;
     background-color: black;
     color: wheat;
     font-size: 20px;
