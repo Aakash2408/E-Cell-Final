@@ -708,7 +708,8 @@ footer span
         width: 100%;
         position: absolute;
         opacity: 0.3;
-
+        border-style: none;
+        height: 700px;
     }   
 
     #about-content-box
@@ -717,6 +718,7 @@ footer span
         margin: 6% auto;
         max-width: 500px !important;
         float: none;
+        min-height: 500px;
         padding-left: 25px;
         padding-right: 25px;
         background-color:#0000008f;
