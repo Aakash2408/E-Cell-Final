@@ -1344,7 +1344,6 @@ footer span
     text-align: center;
     width: 100%;
     color:white;
-     height: 220vh;
     
     background-attachment: fixed;
     position: relative;
@@ -1354,7 +1353,7 @@ footer span
 
 #portfolio{
     background-color: linear-gradient(#1f4037,#99f2c8);
-   height: 238vh;
+
  
     background-size: cover;
 }
