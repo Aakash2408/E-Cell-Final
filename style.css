@@ -631,14 +631,17 @@ footer span
 
 /*About us*/
 
+
 .aboutus{
     background-size: cover;
     text-align: center;
     width: 100%;
     background-color: black;
+    
+     height: 105vh;
+    
+    
 }
-
-
 
 #about-bg-diagonal{
     width:60%;
@@ -650,9 +653,11 @@ footer span
     background-position: fixed;
 }
 
+
 #about-content-box{
     float: left;
     width: 350px;
+    height: 500px;
     margin-top: 6%;
     background-color: black;
     color: wheat;
@@ -671,6 +676,26 @@ footer span
     display: table-cell;
     vertical-align:middle;
     
+}
+
+.bg-parallax{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#about.content-title h3{
+    text-align:left;
+    font-weight:bold;
+}
+
+
+
+#about-desc p{
+    margin-bottom: 30px;
+    color: aliceblue;
+    font-size: 25px;
 }
 
 
