@@ -659,7 +659,7 @@ footer span
     float: left;
     width: 350px;
     height: 500px;
-    
+    margin-left: -16%;
     background-color: black;
     color: wheat;
     font-size: 20px;
