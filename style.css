@@ -102,7 +102,7 @@ margin-bottom: 2px;
 .imglogo{
     
     position: absolute;
-    left: 40%;
+    left: 50%;
     top: 50%;
     transform: translate(-51%,-49%);
 }
