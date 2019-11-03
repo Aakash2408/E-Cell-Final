@@ -1663,7 +1663,7 @@ margin-top: 180px;
 
 /*contact*/
 #contactus{
-    min-height: 80vh;
+    /* min-height: 80vh; */
     background-color: cornflowerblue;
 }
 .contact {
