@@ -21,7 +21,7 @@ body{
 
 
 .hero{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(IMG-20190808-WA0000.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./images/IMG-20190808-WA0000.jpg);
     
     background-size: cover;
     text-align: center;
@@ -60,7 +60,7 @@ section1{
     position: absolute;
     top: 22%;
     left:12%;
-    border-left: 5px solid red;
+    border-left: 5px solid#6195FF;
     text-align: center;
      animation: moveInTop 1s ease-out;
 }
@@ -639,16 +639,16 @@ footer span
     width: 100%;
     background-color: black;
     
-     height: 105vh;
+     height: 60vh;
     
     
 }
 
 #about-bg-diagonal{
     width:60%;
-    height:500px;
+    
     float: right;
-    background-image: url(bottle-chart-coffee-1418338.jpg);
+    background-image: url(./images/bottle-chart-coffee-1418338.jpg);
     border-left: 200px solid black;
     border-top: 700px solid transparent;
     background-position: fixed;
@@ -659,7 +659,7 @@ footer span
     float: left;
     width: 350px;
     height: 500px;
-    margin-left: -16%;
+    margin-left: -66%;
     background-color: black;
     color: wheat;
     font-size: 20px;
@@ -1742,24 +1742,24 @@ margin-top: 180px;
     text-align: center;
     font-size: 14px;
     text-transform: uppercase;
-    margin: 0;
+    margin-bottom: 10px;
 }
 
 .footer-love {
   color: #666;
   font-size: 20px;
   display: block;
-  bottom: 10px;
+ 
   text-align: center;
 }
 .footer-love a {
-  color: lightcoral;
+  color:#666;
   text-decoration: none;
 }
 .footer-love .fa {
-  color: lightcoral;
+  color: red;
   margin: 0 3px;
-  font-size: 20px;
+  font-size: 15px;
   animation: pound 0.35s infinite alternate;
   -webkit-animation: pound 0.35s infinite alternate;
 }
@@ -1777,38 +1777,7 @@ margin-top: 180px;
 
 
 
-span
-  color: #666
-  font-size: 12px
-  display: block
-  position: absolute
-  bottom: 10px
-  position: absolute
-  width: 90%
-  left: 50%
-  top: 45%
-  bottom: auto
-  right: auto
-  transform: translateX(-50%) translateY(-50%)
-  text-align: center
-  a
-    color: #000000
-    text-decoration: none
-  .fa
-    color: #E90606
-    margin: 0 3px
-    font-size: 10px
-    animation: pound .35s infinite alternate
-    -webkit-animation: pound .35s infinite alternate
 
-@-webkit-keyframes pound
-  to
-    transform: scale(1.1)
-
-
-@keyframes pound
-  to
-    transform: scale(1.1)
 
 
 
