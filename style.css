@@ -966,18 +966,13 @@ footer span
     
 }
 
-.swiper-slide .imgBx2{
-    width:100%;
-    height:360px;
-    overflow: hidden;
-    
-}
+
 .swiper-slide .imgBx img{
     width : 100%;
 }
 
-.swiper-slide .imgBx2 img{
-    width : 117%;
+.simage{
+    height: 100%;
 }
 .swiper-slide .details{
     box-sizing: border-box;
